@@ -2,13 +2,14 @@
   "dependencies": {
     "colors": "^1.4.0",
     "discord.js": "^12.5.3",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "node-superfetch": "^0.1.11",
+    "random-animals-api": "^1.2.2"
   },
   "name": "amie-source-code",
   "version": "1.0.0",
   "description": "this is the source code of the discord bot: amie",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "node index.js"
   },
