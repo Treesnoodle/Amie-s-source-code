@@ -1,10 +1,11 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-client.login(mySecret);
+client.login('DISCORD-TOKEN');
 const colors = require('colors')
 const fetch = require('node-fetch');
 
-
+const keepAlive = require('./server.js');
+keepAlive();
 client.once('ready', () => {
     console.log('Amie joins the party!'.rainbow);
     client.user.setActivity('a.help', {
