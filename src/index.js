@@ -1,7 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const config = require('./config.json');
-client.login(config.token);
+client.login(mySecret);
 const colors = require('colors')
 const fetch = require('node-fetch');
 
